@@ -28,6 +28,8 @@ a{
     justify-content: space-around;
     align-items: center;
     background-color: #090C0230;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
 }
 
 #scrollcontainer{
