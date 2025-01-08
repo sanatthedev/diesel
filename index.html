@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap" rel="stylesheet">
+    <title>locomotive scroll</title>
+</head>
+<body>
+    <!-- <div class="bg"><img id="bg" src="RanchoTwilight_NT_Mac.jpg" alt=""></div> -->
+    <div class="header">
+      <div class="navbar">
+        <div id="nav" class="name">motoArchive</div>
+        <div id="nav" class="position">Power Pioneer at MITS Gwalior</div>
+        <div id="nav" class="links">
+            <a href="#">Work</a>
+            <a href="#">,</a>
+            <a href="#">Archive</a>
+        </div>
+      </div>
+    </div>
+    <main id="scrollcontainer">
+        <div class="page1" data-scroll data-scroll-speed="-10">
+          <div class="introimage">
+            <img id="introimage" src="930983.jpg" alt="">
+          </div>
+          <div class="middlesection">
+            <center><hr class="division1"></center>
+            <div class="author">
+                <div class="about">
+                <h5>ABOUT</h5>
+                <hr class="division">
+                <br>
+                <p id="about">
+                  Hey! This is Sanat, currently working as a web developer at the Hindi Club of MITS, A society in my university which promotes hindi as a language to a global level. 
+                  <br>
+                  <br>
+                  Apart from this I am currently persuing Bachelors in Electrical Engineering from Madhav Institute of Technology and Science, Gwalior, Madhya Pradesh.
+                  <br>
+                  <br>
+                  I have speacialization in Frontend Development and have the capacity to develop highly compatible websites.
+                </p>
+              </div>
+              <div class="experience">
+                <h5>EXPERIENCE</h5>
+                <hr class="division">
+                <br>
+                <p id="experience">
+                  <b>WEB DEV:</b> <br>
+                  Hindi Club Of MITS: 2024 &#10132 <br>
+                  Freelance: 2023 &#10132 <br>
+                  <br>
+                  <br>
+                  <b>BACHELOR OF ELECTRICAL ENGINEERING: </b> <br>
+                  Degree: 2023 &#10132 2027
+                </p>
+              </div>
+              <div class="socials">
+                <h5>SOCIALS</h5>
+                <hr class="division">
+                <br>
+                <div id="social">
+                  <a id="socials" href="https://www.instagram.com/_sanatshukla_/">INSTAGRAM</a>
+                  <a id="socials" href="https://github.com/sanatthedev">GITHUB</a>
+                  <a id="socials" href="https://www.linkedin.com/in/sanatshukla/">LINKEDIN</a>
+                  <a id="socials" href="https://x.com/SANAT100105">X</a>
+                </div>
+              </div>
+            </div>
+            <br>
+            <center><hr class="division1"></center>
+          </div>
+            <div class="heading">
+              <span class="ma" data-scroll data-scroll-speed="2" data-scroll-delay="1" >D</span>
+              <span class="ma" data-scroll data-scroll-speed="2" data-scroll-delay="0.5">i</span>
+              <span class="ma" id="bold" data-scroll data-scroll-speed="2" data-scroll-delay="1" >&#8495;</span>
+              <span class="ma" data-scroll data-scroll-speed="2" data-scroll-delay="1.5">s</span>
+              <span class="ma" id="bold" data-scroll data-scroll-speed="2" data-scroll-delay="1" >&#8495;</span>
+              <span class="ma" data-scroll data-scroll-speed="2" data-scroll-delay="0.5">l</span>
+              <span class="ma" id="last" data-scroll data-scroll-speed="2" data-scroll-delay="1.5">s</span>
+              <!-- <span class="ma" data-scroll data-scroll-speed="1.2" data-scroll-delay="0.05" >C</span>
+              <span class="ma" data-scroll data-scroll-speed="1.2" data-scroll-delay="0.1" >H</span>
+              <span class="ma" data-scroll data-scroll-speed="1.2" data-scroll-delay="0.15" >I</span>
+              <span class="ma" data-scroll data-scroll-speed="1.2" data-scroll-delay="0.05" >V</span>
+              <span class="ma" data-scroll data-scroll-speed="1.2" data-scroll-delay="0.1" >E</span> -->
+            </div>
+        </div>
+        <div class="page2" data-scroll data-scroll-speed="1" data-scroll-delay=""></div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+      <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script> -->
+      <script>
+        const scroll = new LocomotiveScroll({
+          el: document.querySelector("#scrollcontainer"),
+          smooth: true,
+          smoothMobile: true,
+          multiplier: 2,
+          resetNativeScroll: true,
+          lerp: 0.09,
+        });
+      </script>
+</body>
+</html>
