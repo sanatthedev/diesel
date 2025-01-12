@@ -4,6 +4,10 @@
     font-family: "Montserrat", serif;
 }
 
+body{
+    background-color: #bbbbbf;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -27,9 +31,9 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #090C0230;
-    backdrop-filter: blur(40px);
-    -webkit-backdrop-filter: blur(40px);
+    background-color: #ffffff60;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 #scrollcontainer{
@@ -40,18 +44,22 @@ a{
     font-weight: 600;
 }
 
+#samefont{
+    font-size: 1.6vh;
+}
+
 
 .page1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: ; */
     height: 100vh;
-    position: relative;
-    background-color: #FBFEF9;
+    /* position: relative; */
+    background-color: #bbbbbf;
 }
 
 .introimage{
-    padding-top: 15vh;
+    padding-top: 22vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -59,7 +67,7 @@ a{
 }
 
 #introimage{
-    width: 25vw;
+    width: 20vw;
     margin-right: 2.5vw;
     border-radius: 1vh;
 }
@@ -73,15 +81,18 @@ a{
     border: 0.1vh solid black;
 }
 
-.middlesection{
-    padding-bottom: 15vh;
-}
-
 .author{
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
+}
+
+h5{
+    font-size: 1.4vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    /* font-weight: 500; */
 }
 
 .about{
@@ -120,10 +131,11 @@ a{
     display: flex;
     align-items: last baseline;
     justify-content: end;
+    padding-top: 8vh;
 }
 
 .ma{
-    height: 10vh;
+    height: 26vh;
     font-family: "Gajraj One";
     color: black;
     font-size: 27vh;
@@ -145,5 +157,38 @@ a{
 .page2{
     height: 100vh;
     width: 100vw;
-    background-color: #090C02;
+    background-color: #767777;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+
+.mustang{
+    width: 100vw;
+    display: flex;
+    align-items: last baseline;
+    justify-content: end;
+    padding-top: 20vh;
+}
+
+#mustang{
+    width: 25vw;
+    margin-right: 2.5vw;
+    border-radius: 1vh;
+}
+
+.page3{
+    height: 100vh;
+    background-color: #8d8e8e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page4{
+    height: 100vh;
+    background-color: #bbbbbf;
 }
