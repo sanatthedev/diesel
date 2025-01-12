@@ -17,21 +17,21 @@
     <!-- <div class="bg"><img id="bg" src="RanchoTwilight_NT_Mac.jpg" alt=""></div> -->
     <div class="header">
       <div class="navbar">
-        <div id="nav" class="name">motoArchive</div>
-        <div id="nav" class="position">Power Pioneer at MITS Gwalior</div>
-        <div id="nav" class="links">
-            <a href="#">Work</a>
-            <a href="#">,</a>
-            <a href="#">Archive</a>
+        <div id="samefont" id="nav" class="name">motoArchive</div>
+        <div id="samefont" id="nav" class="position">Power Pioneer at MITS Gwalior</div>
+        <div id="samefont" id="nav" class="links">
+            <a id="samefont" href="#">Work</a>
+            <a id="samefont" href="#">,</a>
+            <a id="samefont" href="#">Archive</a>
         </div>
       </div>
     </div>
     <main id="scrollcontainer">
         <div class="page1" data-scroll data-scroll-speed="-8">
           <div class="introimage">
-            <img id="introimage" src="930983.jpg" alt="" data-scroll data-scroll-speed="1.2">
+            <img id="introimage" src="930983.jpg" alt="" data-scroll data-scroll-speed="6">
           </div>
-          <div class="middlesection" data-scroll data-scroll-speed="1.2">
+          <div class="middlesection" data-scroll data-scroll-speed="1">
             <center><hr class="division1"></center>
             <div class="author">
                 <div class="about">
@@ -54,7 +54,7 @@
                 <br>
                 <p id="experience">
                   <b>WEB DEV:</b> <br>
-                  Hindi Club Of MITS: 2024 &#10132 <br>
+                  Hindi Club Of MITS: 2025 &#10132 <br>
                   Freelance: 2023 &#10132 <br>
                   <br>
                   <br>
@@ -67,10 +67,10 @@
                 <hr class="division">
                 <br>
                 <div id="social">
-                  <a id="socials" href="https://www.instagram.com/_sanatshukla_/">INSTAGRAM</a>
-                  <a id="socials" href="https://github.com/sanatthedev">GITHUB</a>
-                  <a id="socials" href="https://www.linkedin.com/in/sanatshukla/">LINKEDIN</a>
-                  <a id="socials" href="https://x.com/SANAT100105">X</a>
+                  <a id="socials" href="https://www.instagram.com/_sanatshukla_/" target="_blank">INSTAGRAM</a>
+                  <a id="socials" href="https://github.com/sanatthedev" target="_blank">GITHUB</a>
+                  <a id="socials" href="https://www.linkedin.com/in/sanatshukla/" target="_blank">LINKEDIN</a>
+                  <a id="socials" href="https://x.com/SANAT100105" target="_blank">X</a>
                 </div>
               </div>
             </div>
@@ -92,7 +92,17 @@
               <span class="ma" data-scroll data-scroll-speed="1.2" data-scroll-delay="0.1" >E</span> -->
             </div>
         </div>
-        <div class="page2" data-scroll data-scroll-speed="1" data-scroll-delay=""></div>
+        <div class="page2" data-scroll data-scroll-speed="0">
+          <div class="mustang">
+            <img src="mustang'69.jpg" alt="" id="mustang" data-scroll data-scroll-speed="6">
+          </div>
+        </div>
+        <div class="page3">
+
+        </div>
+        <div class="page4">
+          
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
       <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script> -->
@@ -100,8 +110,8 @@
         const scroll = new LocomotiveScroll({
           el: document.querySelector("#scrollcontainer"),
           smooth: true,
+          multiplier: 0.1,
           smoothMobile: true,
-          multiplier: 2,
           resetNativeScroll: true,
           lerp: 0.09,
         });
